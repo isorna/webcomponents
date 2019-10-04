@@ -1,0 +1,34 @@
+{
+  "name": "webcomponents-stack",
+  "version": "0.1.0",
+  "contributors": [
+    "alvaro.isorna"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": "https://gitlab.com/alvaro.isorna/webcomponents-stack",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp service-worker",
+    "clean-build": "gulp clean-build",
+    "pre-publish": "gulp pre-publish",
+    "reinstall": "rm -rf node_modules && npm install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "del": "^4.1.1",
+    "eslint": "^5.12.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-contains": "^1.2.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-rename": "^1.3.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "nodemon": "^1.19.1",
+    "workbox-build": "^4.3.1"
+  }
+}

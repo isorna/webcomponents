@@ -119,7 +119,7 @@ class LoginCard extends HTMLElement {
     }
     _setUpContent() {
         const cardTitle = `<h1 class="card-title">${icons.home}</h1>`;
-        const cardFooter = '<div id="copy"><p>&copy;2019 Predactive</p></div>';
+        const cardFooter = '<div id="copy"><p>&copy;2019</p></div>';
         const passwordValidity = 'Validation: 12 characters, at least 1 uppercase, 1 lowercase, 1 decimal y 1 special';
         const mandatoryField = '<p class="input-hint">* Mandatory</p>';
         const codeDeliveryDetailsText = `We've sent an email to ${this.codeDeliveryDetailsEmail !== '' ? this.codeDeliveryDetailsEmail : 'your email'}`;

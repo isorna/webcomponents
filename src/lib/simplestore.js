@@ -7,12 +7,8 @@ import { environment } from '../config/environment.js';
 // Vars
 export const defaultPage = '/';
 export const roles = [
-    { id: 0, name: 'ceo' },
-    { id: 1, name: 'operationsDirector' },
-    { id: 2, name: 'accountManager' },
-    { id: 3, name: 'campaignManager' },
-    { id: 4, name: 'salesDirector' },
-    { id: 5, name: 'salesExecutive' },
+    { id: 0, name: 'admin' },
+    { id: 1, name: 'user' },
 ];
 export const loadingMessages = {
     loading: 'Loading...',

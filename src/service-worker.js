@@ -65,19 +65,19 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "components/app-wrapper.js",
-    "revision": "6d9515ea40d951c40d28e1c7d81fdb1e"
+    "revision": "602f5edd494078aa1fbe0d7b2cbd1623"
   },
   {
     "url": "components/bundle.js",
-    "revision": "92aa81ecc2f510025905e8eed3a763e5"
+    "revision": "90c5cc3c5838fbd7efea8b08ab6efd20"
   },
   {
     "url": "components/login-card.js",
-    "revision": "c3f5556e1f007f5498db3158adecf4f5"
+    "revision": "2ccfcea937ae741927ed5d8ddd689f57"
   },
   {
     "url": "components/notification-bar.js",
-    "revision": "5a5c788223bcd942faf6c5976aba84ed"
+    "revision": "a346c9511db484a02da9be4b39aec4a5"
   },
   {
     "url": "config/environment.js",
@@ -133,6 +133,6 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "lib/simplestore.js",
-    "revision": "50eed272900903b918d8e3ff432e8a8a"
+    "revision": "1789a2b83b2126095612014cc36acfa6"
   }
 ]);

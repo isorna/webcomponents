@@ -57,5 +57,6 @@ workbox.routing.registerRoute(
     })
 );*/
 
-// Workbox build: https://developers.google.com/web/tools/workbox/guides/precache-files/workbox-build
+// Workbox build:
+// LINK: https://developers.google.com/web/tools/workbox/guides/precache-files/workbox-build
 workbox.precaching.precacheAndRoute([]);

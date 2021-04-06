@@ -20,6 +20,6 @@ installRouter((location, event) => {
 installOfflineWatcher((offline) => store.updateOffline(offline));
 
 // Configure NProgress
-// MORE INFD: https://github.com/rstacruz/nprogress
+// LINK: https://github.com/rstacruz/nprogress
 NProgress.configure({ showSpinner: false });
 window.loading = NProgress;

@@ -1,6 +1,7 @@
-/* FONTS */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
-/* BASE STYLES */
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One:400,700&display=swap');
+/* Base styles */
 *,
 *:before,
 *:after,
@@ -238,6 +239,9 @@ app-wrapper {
     margin: 0;
     padding: 0;
     height: 100vh;
+}
+home-content {
+    flex-basis: 100%;
 }
 content-wrapper {
     flex-grow: 1;

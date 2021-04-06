@@ -7,7 +7,7 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
-// FROM: https://raw.githubusercontent.com/Polymer/pwa-helpers/master/src/router.ts
+// LINK: https://raw.githubusercontent.com/Polymer/pwa-helpers/master/src/router.ts
 /**
  Basic router that calls a callback whenever the location is updated.
 

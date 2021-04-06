@@ -203,20 +203,20 @@ class LoginCard extends HTMLElement {
             `;
         }
         this.containerTag.innerHTML = `${cardTitle}${cardForm}${cardFooter}`;
-        // HANDLE INPUTS
+        // Handle inputs
         this.containerTag.querySelectorAll('#username').forEach(node => node.addEventListener('input', this.username_handleInput.bind(this)));
         this.containerTag.querySelectorAll('#verificationCode').forEach(node => node.addEventListener('input', this.verificationCode_handleInput.bind(this)));
         this.containerTag.querySelectorAll('#newPassword').forEach(node => node.addEventListener('input', this.newPassword_handleInput.bind(this)));
         this.containerTag.querySelectorAll('#verifyPassword').forEach(node => node.addEventListener('input', this.verifyPassword_handleInput.bind(this)));
         this.containerTag.querySelectorAll('#password').forEach(node => node.addEventListener('input', this.password_handleInput.bind(this)));
         this.containerTag.querySelectorAll('.password-icon + .input-hint').forEach(node => node.addEventListener('click', this.passwordShowHide.bind(this)));
-        // FORM METHODS
+        // Form methods
         this.containerTag.querySelectorAll('#signup-form').forEach(node => node.addEventListener('submit', this.singUpForm_submit.bind(this)));
         this.containerTag.querySelectorAll('#confirm-signup-form').forEach(node => node.addEventListener('submit', this.confirmSignUpForm_submit.bind(this)));
         this.containerTag.querySelectorAll('#password-recovery-form').forEach(node => node.addEventListener('submit', this.passwordRecoveryForm_submit.bind(this)));
         this.containerTag.querySelectorAll('#password-change-form').forEach(node => node.addEventListener('submit', this.passwordChangeForm_submit.bind(this)));
         this.containerTag.querySelectorAll('#signin-form').forEach(node => node.addEventListener('submit', this.signInForm_submit.bind(this)));
-        // BUTTON METHODS
+        // Button methods
         this.containerTag.querySelectorAll('#button_cancelSignUp').forEach(node => node.addEventListener('click', this.cancelSignUp.bind(this)));
         this.containerTag.querySelectorAll('#button_submitSignUp').forEach(node => node.addEventListener('click', this.singUpForm_submit.bind(this)));
         this.containerTag.querySelectorAll('#button_cancelConfirmSignUp').forEach(node => node.addEventListener('click', this.cancelConfirmSignUp.bind(this)));
@@ -229,7 +229,7 @@ class LoginCard extends HTMLElement {
         this.containerTag.querySelectorAll('#button_submitSignIn').forEach(node => node.addEventListener('click', this.signInForm_submit.bind(this)));
     }
     // Event handlers
-    // INPUT HANDLERS
+    // Input handlers
     username_handleInput(e) {
         this.username = e.target.value;
         if (this.isPasswordRecovery) {
@@ -266,7 +266,7 @@ class LoginCard extends HTMLElement {
             this.passwordChangeForm_checkValid();
         }
     }
-    // FORM CHECKERS
+    // Form checkers
     signUpForm_checkValid() {
         this.signUpForm_isValid = this.username !== '' && this.password !== '' && this.verifyPassword === this.password;
     }
@@ -282,7 +282,7 @@ class LoginCard extends HTMLElement {
     signInForm_checkValid() {
         this.signInForm_isValid = this.username !== '' && this.password !== '';
     }
-    // FORM SUBMITS
+    // Form submits
     singUpForm_submit(e) {
         e.preventDefault();
         if (!e.target.disabled) {

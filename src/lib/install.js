@@ -30,8 +30,8 @@ if ('serviceWorker' in navigator) {
 
     wb.register();
 }
-// FROM: https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#add_install_experience
-// ALSO: https://developers.google.com/web/fundamentals/app-install-banners/#detect-mode
+// LINK: https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#add_install_experience
+// LINK: https://developers.google.com/web/fundamentals/app-install-banners/#detect-mode
 let deferredInstallPrompt = null;
 // window.installButton = document.getElementById('install-button');
 // if (window.installButton) {

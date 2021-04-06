@@ -1,4 +1,4 @@
-// FROM: https://github.com/reduxjs/reselect/blob/master/src/index.js
+// LINK: https://github.com/reduxjs/reselect/blob/master/src/index.js
 function defaultEqualityCheck(a, b) {
     return a === b
   }

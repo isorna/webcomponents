@@ -55,6 +55,7 @@ task('pwa-icons', () => {
 });
 
 // Look for TODO's
+// TODO: doesn't work on mac... why?
 task('to-do-list', (cb) => {
   // use {flags: 'a'} to append and {flags: 'w'} to erase and write a new file
   var stream = createWriteStream(`${ROOT_DIR}/TODO.md`, { flags: 'w' });

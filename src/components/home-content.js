@@ -73,8 +73,8 @@ class HomeContent extends HTMLElement {
             width: 200px;
           }
         }
-        /* NEON TITLE: https://codepen.io/comehope/pen/GBwvxw */
-        /* NEON ANIMATION: https://codepen.io/GeorgePark/pen/MrjbEr */
+        /* LINK NEON TITLE: https://codepen.io/comehope/pen/GBwvxw */
+        /* LINK NEON ANIMATION: https://codepen.io/GeorgePark/pen/MrjbEr */
         /* Animate neon flicker */
         @keyframes flicker {
           0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {

@@ -1,7 +1,8 @@
 import { writeFile, appendFile, appendFileSync, createWriteStream } from 'fs';
-import { task, src, dest } from 'gulp';
-import contains from './lib/gulp-contains.js';
-// import contains from 'gulp-contains';
+import pkg from 'gulp';
+const { task, src, dest } = pkg;
+// import contains from './lib/gulp-contains.js';
+import contains from 'gulp-contains';
 import nodemon from 'gulp-nodemon';
 import del from 'del';
 import { injectManifest } from 'workbox-build';

@@ -5,7 +5,7 @@
     "alvaro.isorna"
   ],
   "license": "BSD-3-Clause",
-  "repository": "https://gitlab.com/alvaro.isorna/webcomponents-stack",
+  "repository": "https://github.com/isorna/webcomponents.git",
   "type": "module",
   "scripts": {
     "start": "gulp start",
